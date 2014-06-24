@@ -1,0 +1,57 @@
+---
+title       : Slidify Slides for Iris Data App
+subtitle    : HTML5 SLides 
+author      : Sachi Pradhan
+job         : Tech Tinkerer
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+github:
+  user: sabyapradhan
+  repo: SlidifyProject
+
+---
+
+## Iris Data Set App
+
+App Functions
+
+1. Select one of the four parameters
+2. View the respective Histogram
+3. View the initial 6 rows of the data set
+
+---
+
+## Iris Data Set Paramenters
+
+Following are the 4 parameters that can be selected
+
+1. Sepal Length
+2. Sepal Width
+3. Petal Lenght
+4. Petal Width
+
+---
+
+## Iris Data Set
+
+```{r ch5}
+library(datasets)
+head(iris)
+```
+
+---
+
+## Future Plans
+
+1. Add more input types
+2. Add a scatter plot which can show correlation, etc. 
+
+---
+
+## Thank You 
+
+--
